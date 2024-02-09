@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+.heading>nav>a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding:  1rem;
+    font-size: 20px;
+}
+.heading>nav>a:hover{
+    color: rgb(145, 198, 254);
+    transition: all.3s;
+}
+.heading nav{
+    padding: 2rem 6rem;
+}
+nav{
+    width: 50rem;
+}
+.heading{
+    width: 50rem;
+    z-index: 12;
+}
+.coloured{
+    height: 593px;
+    background-color: rgb(145, 198, 254);
+    clip-path: polygon(60% 0% ,100% 0%,100% 100%,40% 100%);
+    margin-top: -5rem;
+    z-index: 5;
+}
+.coloured img{
+    margin-left: 64%;
+    margin-top: 8rem;
+}
+.coloured img:hover{
+    transform: scale(1.1);
+}
+.video-call{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    position: relative;
+    margin-left:81rem;
+    margin-top: -37rem;
+    z-index: 10; 
+}
+.content{
+    margin-left: 5rem;
+    width: 30rem;
+    margin-top: 7rem;
+}
+.big{
+    margin-top: 0.6rem;
+    font-size:x-large;
+}
+.color-change:hover{
+    color: rgb(145, 198, 254);
+}
+.para{
+    margin-top: 1rem;
+}
+.button{
+    line-height: 1.7rem;
+    width: 11rem;
+    border-radius: 13px 13px;
+    margin-top: 1rem;
+    margin-left: 3rem;
+    background: transparent;
+    border: 5px solid  rgb(145, 198, 254);
+    box-shadow: 6px 6px;
+}
+.button:hover{
+    background-color:rgb(145, 198, 254);
+    border:3px solid black;
+    cursor: pointer;
+    transition: all.3s;
+}
